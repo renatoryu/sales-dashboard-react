@@ -1,15 +1,27 @@
+<div align="center">
+
 # 📊 Sales Performance Dashboard
 
-[![Demo Online](https://img.shields.io/badge/Demo_Online-Ver_Projeto-2ea44f?style=for-the-badge&logo=vercel)](https://sales-dashboard-react-beige.vercel.app/)
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+<img src="https://img.shields.io/badge/Chart.js-F5788D?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js" />
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Chart.js](https://img.shields.io/badge/Chart.js-F5788D?style=for-the-badge&logo=chart.js&logoColor=white)
+<br />
 
 > Um painel analítico de vendas moderno e responsivo, simulando um ambiente corporativo real.
 
+<br />
+
+<a href="https://sales-dashboard-react-beige.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Ver_Demo_Online_🚀-2ea44f?style=for-the-badge&logo=vercel&logoColor=white" alt="Demo Online" />
+</a>
+
+</div>
+
+---
+
 ## 🖼️ Preview
-<img width="1878" height="892" alt="image" src="https://github.com/user-attachments/assets/a8c6183f-b995-45ad-823f-4e7c019d6a93" />
+<img width="100%" alt="Dashboard Preview" src="https://github.com/user-attachments/assets/a8c6183f-b995-45ad-823f-4e7c019d6a93" />
 
 ## 🚀 Sobre o Projeto
 
