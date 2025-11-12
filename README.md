@@ -1,16 +1,78 @@
-# React + Vite
+# 📊 Sales Performance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-F5788D?style=for-the-badge&logo=chart.js&logoColor=white)
 
-Currently, two official plugins are available:
+> Um painel analítico de vendas moderno e responsivo, simulando um ambiente corporativo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Preview
+<img width="1878" height="892" alt="image" src="https://github.com/user-attachments/assets/a8c6183f-b995-45ad-823f-4e7c019d6a93" />
 
-## React Compiler
+## 🚀 Sobre o Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto é uma aplicação Front-End desenvolvida para visualizar métricas de desempenho de vendas. O objetivo principal foi implementar **filtros em cascata (dependent dropdowns)** e renderização dinâmica de gráficos.
 
-## Expanding the ESLint configuration
+Ao selecionar uma **Categoria**, os **Produtos** disponíveis são atualizados. Ao selecionar um Produto, as **Marcas** são filtradas. O gráfico responde instantaneamente a essas mudanças.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades
+
+-   **Filtros Dependentes:** Lógica avançada onde a escolha de um campo reseta e filtra as opções do campo seguinte (Categoria → Produto → Marca).
+-   **Visualização de Dados:** Gráfico de linhas interativo utilizando `Chart.js` com preenchimento de área (gradient fill).
+-   **UI/UX Profissional:** Design limpo estilo "Enterprise", com paleta de cores sóbria, sombras suaves e tipografia moderna.
+-   **Mock Data Robusto:** Estrutura de dados complexa simulando cenários reais de varejo (Eletrônicos, Comida, Bebida, etc.).
+-   **Responsividade:** Layout adaptável para diferentes tamanhos de tela.
+
+## 🛠️ Tecnologias Utilizadas
+
+-   **React.js:** Biblioteca principal para construção da interface.
+-   **Vite:** Build tool rápida para desenvolvimento ágil.
+-   **Chart.js & React-Chartjs-2:** Para criação e manipulação dos gráficos.
+-   **CSS-in-JS:** Estilização modularizada dentro dos componentes.
+
+## 📦 Como Rodar o Projeto
+
+Siga os passos abaixo para executar o projeto em sua máquina local:
+
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/SEU_USUARIO/NOME_DO_REPO.git)
+
+# 2. Entre na pasta do projeto
+cd NOME_DO_REPO
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
+
+O projeto estará rodando em `http://localhost:5173`.
+```
+
+## 📂 Estrutura de Pastas
+```
+src/
+├── mockData.js       # Dados simulados (JSON Structure)
+├── SalesChart.jsx    # Componente Principal (Lógica + UI)
+├── main.jsx          # Ponto de entrada da aplicação
+└── App.jsx           # Container raiz
+```
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas\! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+-----
+
+Desenvolvido com 💙
+
+````
+
+Depois de salvar o arquivo com esse novo conteúdo, é só fazer o commit e o push novamente para o GitHub:
+
+```bash
+git add README.md
+git commit -m "Atualiza README com documentação do projeto"
+git push
+````
